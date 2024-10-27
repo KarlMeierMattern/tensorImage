@@ -83,3 +83,9 @@ async function loadModel() {
 }
 
 loadModel();
+
+const testFunction = async () => {
+  setTimeout(() => {
+    console.log("time expired");
+  }, 3000);
+};
